@@ -1,0 +1,116 @@
+.mens{
+  background:#d7edf5;
+  padding:10px;
+  height: 50px;
+  display: flex;
+  align-items: center;}
+.mens p {
+    padding:1px 20px;
+    color:black;
+    margin:auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    padding: 10px 50px;              
+    background-color:#f0fdff;
+}
+.menu p{font-size:18px;}
+.menu p a{text-decoration: none; color: #000000;margin:14px;}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo img {
+    height: 160px; 
+    margin:1px;
+  }
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+  }
+  .logo-title {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .logo-title .verde {
+    color: #3bb78f;
+  }
+  .logo-title .azul {
+    color: #2c82c9;
+  }
+  .logo-subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-top: 4px;
+  }
+h1{
+margin-top:15px;
+text-align: center;
+padding: 15px;
+border-radius: 20px;
+color: rgb(78, 76, 76);
+}
+p button{
+    background-color:rgb(78, 76, 76);
+    border:none;
+}
+button a{
+    position:left;
+    margin-top: 10px;
+    text-decoration:none;
+    color:white;
+    }
+body {
+box-sizing: border-box;
+font-family: "Lucida Sans";
+font-size: 21px;
+background-image: url("../static/imagenes/pfondo.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+table-layout: center;
+}
+form {
+background: rgba(145, 145, 145, 0.6);
+padding: 20px;
+border-radius: 10px;
+color: white;
+max-width: 600px;
+margin: auto;
+}
+.container{
+    max-width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px ;
+}
+form input{resize: vertical; width:540px;}
+input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+textarea { min-height: 100px; resize: vertical;width:540px;}
+button {
+    width: 100%;
+    padding: 12px;
+    background:rgb(61, 60, 60);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+  .espa{
+    margin: auto;
+    height:10px;
+    width:10px;
+}

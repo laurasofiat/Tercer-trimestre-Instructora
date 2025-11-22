@@ -1,0 +1,30 @@
+body {
+    background-image:url("../static/imagenes/nfondo.jpg");
+    font-family: Arial, sans-serif;
+    background-size:cover;
+    }
+h1{
+    padding:1px 300px;
+}
+.cointainer{
+    display:flex;
+    align-items:center;
+}
+.carousel-item img {
+    max-height: 900px;
+    margin:auto;
+}
+.col{
+    color:white;
+}
+.p-3{
+    color:white;
+}
+.paginas p a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+.paginas p {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}

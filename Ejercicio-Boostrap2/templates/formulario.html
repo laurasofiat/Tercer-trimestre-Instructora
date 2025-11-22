@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción|EcoNews</title>
+    <link rel="stylesheet" href="../static/formulario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+            <div class="mens"><p>Palmira EcoNews</p>
+            </div>
+            <div class="menu">
+                <div class="logo">
+                    <img src="../static/imagenes/e1.jpg" alt="Logo">
+                    <div class="logo-text">
+                    <div class="logo-title">
+                    <span class="verde">Eco</span>
+                    <span class="azul">News</span>
+                    </div>
+                    <div class="logo-subtitle">
+                    Cultural y Ambiental, participemos por un mundo mejor 🌱.
+                    </div>
+                    </div>
+                </div>
+                    <p><a href="/">INICIO</a></p>
+                    <p><a href="/noticias">NOTICIAS</a></p>
+                    <p><a href="/contacto">CONTACTOS</a></p>
+            </div>
+    <h1>Inscribete</h1>
+        <div class="container">  
+        <div id="alerta" class="message"></div> 
+        <form id="contactForm">
+            <label for="nombre">Nombre</label>
+            <input type="varchar" id="nombre" name="nombre" placeholder="Ingresa Nombre"required>
+            
+            <label for="apellido">Apellido</label>
+            <input type="varchar" id="apellido" name="apellido" placeholder="Ingresa Apellido" required>
+            
+            <label for="correo">Correo Electrónico</label>
+            <input type="varchar" id="correo" name="correo" placeholder="Ingresa Correo" requered>
+            
+            <label for="Campaña">Selecciona Campaña</label>
+            <input type="varchar" id="direccion" name="direccion" placeholder="Ingresa Dirección" required>
+
+            <label for="telefono">colegio</label>
+            <input type="varchar" name="telefono" name="telefono" placeholder="Ingresa Teléfono" required>
+
+            <label for="correo">Seleccionar Campaña</label>
+            <select name="tipo_documento">
+                <option "T.I"></option>
+                <option "C.C"></option>
+                <option "P.P"></option>
+                <option "C.E"></option>
+            </select>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea type="varchar" id="mensaje" name="mensaje" placeholder="Ingresa un Mensaje reflexivo sobre Eco-News(No es Obligatorio)"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <nav class="espa">
+        <p></p>
+    </nav>
+    <footer>
+    <p>© 2025 eco.news | Noticias para un futuro sostenible</p>
+  </footer>
+</body>
+</html>
